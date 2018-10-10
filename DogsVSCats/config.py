@@ -33,7 +33,6 @@ class DefaultConfig(object):
     # weight_decay = 1e-4     # 损失函数
     weight_decay = 0
 
-
     def parse(self, kwargs):
         """
         根据字典kwargs更新config参数
