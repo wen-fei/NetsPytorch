@@ -38,7 +38,7 @@ def train(**kwargs):
     train_data = DogCat(opt.train_data_root, train=True)
     val_data = DogCat(opt.train_data_root, train=False)
     train_dataloader = DataLoader(train_data, opt.batch_size, shuffle=True, num_workers=opt.num_workers)
-    val_dataloader = DataLoader(train_data, opt.batch_size, shuffle=False, num_workers=opt.num_workers)
+    val_dataloader = DataLoader(val_data, opt.batch_size, shuffle=False, num_workers=opt.num_workers)
 
     # setp3 : 目标函数和优化器
     criterion = nn.CrossEntropyLoss()
@@ -185,5 +185,6 @@ def write_csv(results, file_name):
 
 
 if __name__ == '__main__':
-    import fire
-    fire.Fire()
+    # import fire
+    # fire.Fire()
+    train()
