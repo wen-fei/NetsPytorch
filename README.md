@@ -1,5 +1,7 @@
 # NetsProtorch
 Pytorch  implementation of classic networks
-no data
+
+* TextCNN
+* TextRNN
 
 
