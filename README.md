@@ -5,5 +5,6 @@ Pytorch  implementation of classic networks
 * TextRNN
 * 猫狗大战
 * 神经网络写诗
+* Attention
 
 
