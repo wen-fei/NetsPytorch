@@ -6,5 +6,6 @@ Pytorch  implementation of classic networks
 * 猫狗大战
 * 神经网络写诗
 * Attention
+* min RNN +  self Attention
 
 
